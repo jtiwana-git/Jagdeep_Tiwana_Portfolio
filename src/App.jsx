@@ -18,5 +18,4 @@ function App() {
   );
 }
 
-// 10:15
 export default App;
