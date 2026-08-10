@@ -1,5 +1,22 @@
+import { Navbar } from "@/layouts/Navbar";
+import { Hero } from "@/sections/Hero";
+import { About } from "./sections/About";
+import { Projects } from "@/sections/Projects";
+import { Contact } from "@/sections/Contact";
+
 function App() {
-  return <div>Test</div>;
+  return (
+    <div className="min-h-screen overflow-x-hidden">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+      </main>
+    </div>
+  );
 }
 
+// 10:15
 export default App;
