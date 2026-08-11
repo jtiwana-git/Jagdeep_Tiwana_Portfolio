@@ -1,5 +1,5 @@
 import HeroBackground from "../assets/hero-bg.jpg";
-import { Button } from "../components/button";
+import { Button } from "../components/Button";
 import { ArrowRight, ChevronDown, Download } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
